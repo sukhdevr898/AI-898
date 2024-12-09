@@ -1,0 +1,6 @@
+[build]
+command = "pip install -r functions/requirements.txt"
+publish = "static"                                                                      functions = "functions"
+
+[dev]
+command = "netlify-lambda serve functions"
